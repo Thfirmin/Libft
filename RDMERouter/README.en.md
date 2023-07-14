@@ -107,7 +107,7 @@ Go to Libft [Wiki page][wiki].
 ---
 
 <!-- Links -->
-[wiki]:<https://github.com/Thfirmin/42Template/wiki>
+[wiki]:<https://github.com/Thfirmin/Libft/wiki>
 [thfirmin]:<https://github.com/Thfirmin>
 [42pdh]:<https://github.com/gawbsouza/42-pdh>
 [42rio]:<https://42.rio>
