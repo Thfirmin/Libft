@@ -30,7 +30,7 @@ O escopo principal para estudar:
 * Make e Makefiles
 
 Acesse a documentação do Libft [aqui][wiki]   
-Volte para a [página principal](../)   
+Volte para a [página principal](/)   
 
 ---
 

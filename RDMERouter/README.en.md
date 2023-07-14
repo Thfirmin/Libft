@@ -29,7 +29,7 @@ The main scope to learn:
 * Make and Makefiles
 
 Access documentations of Libft [here][wiki]   
-Go back to [Homepage](../)   
+Go back to [Homepage](/)   
 
 ---
 
