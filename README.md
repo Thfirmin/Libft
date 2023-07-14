@@ -41,6 +41,7 @@ Technologies and methodologies used to build this project are listed below:
 ## Avaliable Languages
 
 * [English (EN-USA)](/RDMERouter/README.en.md)
+* [Portuguese (PT-BR)](/RDMERouter/README.pt.md)
 
 <!-- Footer -->
 
