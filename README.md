@@ -3,9 +3,9 @@
 
 <a href="/">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="/.github/img/42template_dark.png">
-		<source media="(prefers-color-scheme: light)" srcset="/.github/img/42template_light.png">
-		<img alt="42 Header" src="/.github/img/42template_light.png">
+		<source media="(prefers-color-scheme: dark)" srcset="/.github/img/libft_dark.svg">
+		<source media="(prefers-color-scheme: light)" srcset="/.github/img/libft_light.svg">
+		<img alt="42 Header" src="/.github/img/42libft_light.png">
 	</picture>
 </a>
 
@@ -13,13 +13,13 @@
 
 </div>
 
-# 42Template
+# Libft
 
-> Intro
+> Your very first own library
 
-Project synopsis
+This project is about coding a C library.
 
-Version: `0`
+Version: `15`
 
 ---
 
@@ -35,7 +35,8 @@ Technologies and methodologies used to build this project are listed below:
 * [Git][git]
 * [HTML][html]
 * [Markdown][markdown]
-
+* [C][clang]
+* [Make][make]
 
 ## Avaliable Languages
 
@@ -75,3 +76,5 @@ Go to 42Template [Wiki page][wiki].
 [github]:<https://docs.github.com/en>
 [git]:<https://git-scm.com/doc>
 [html]:<https://www.w3schools.com/html>
+[c]:<https://en.wikipedia.org/wiki/C_(programming_language)>
+[make]:<http://www.fredshack.com/docs/make.html>

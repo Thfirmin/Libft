@@ -3,9 +3,9 @@
 
 <a href="/">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="/.github/img/42template_dark.png">
-		<source media="(prefers-color-scheme: light)" srcset="/.github/img/42template_light.png">
-		<img alt="42 Header" src="/.github/img/42template_light.png">
+		<source media="(prefers-color-scheme: dark)" srcset="/.github/img/libft_dark.svg">
+		<source media="(prefers-color-scheme: light)" srcset="/.github/img/libft_light.svg">
+		<img alt="42 Header" src="/.github/img/42libft_light.png">
 	</picture>
 </a>
 
@@ -13,19 +13,23 @@
 
 </div>
 
-# 42Template
-
-> Intro
-
-Sinópse do projeto
-
-Versão: `0`
+# Libft
 
 ---
 
-Texto introdutório do projeto (preâmbulo)   
+Esse projeto é o primeiro passo no caminho da escola 42. Neste projeto nós
+precisamos entender a base da metodologia 42 e a 
+base da linguagem de programação C.
 
-Acesse a documentação do 42Template [aqui][wiki]   
+O escopo principal para estudar:
+
+* Compiladores C e como se usa
+* Síntaxe da linguagem C
+* Bibliotecas C e como funcionam/criamos/compilamos/encadeamos elas
+* Cabeçalhos C e como funcionam/criamos/encadeamos eles
+* Make e Makefiles
+
+Acesse a documentação do Libft [aqui][wiki]   
 Volte para a [página principal](../)   
 
 ---
@@ -40,25 +44,51 @@ Volte para a [página principal](../)
 ---
 ## Dependências
 
-	Texto descrevendo em termos simlpes as tecnologias e pré-requisitos necessários para rodar e usar o projeto
+Este projeto foi feito sob o SO
+Eles possuem algumas dependências para uso:
+
+* gcc
+* make
+
+você pode instalar eles usando o seguinte comando:
+
+```Bash
+sudo apt update && sudo apt install -y gcc make
+```
 
 ---
 ## Configurando
 
-	Texto descrevendo em termos simples como compilar e instalar o projeto em sua própria máquina   
-	(Especificações mais aprofundadas na documentação)
+Este projeto é uma biblioteca C, então você irá usa-lo como uma ferramente
+para ajudar você em seu projeto como a `stdio` com a função `printf`.
+
+Para compilar a libft você pode usar:
+
+```Bash
+make -C <libft_dir>
+```
+
+ou entre no diretório da libft e use
+
+```Bash
+make
+```
 
 ---
 ## Uso
 
-	Exemplos de usos rápidos e casos de uso simples
+Para incluir essa biblioteca em seu projeto, use `#include "libft.h"` em seus
+arquivos .c/.h.
+
+E na parte de compilação do seu binário, você pode usar 
+`-I<libft_dir> -L<libft_dir> -lft`.
 
 <!-- Footer -->
 
 ---
 
 Veja explicações mais detalhadas na página wiki do projeto.   
-Vá para a [página wiki][wiki] da 42Template.   
+Vá para a [página wiki][wiki] da Libft.   
 
 **Autor:** [Thiago Firmino dos S.][thfirmin]   
 **Instituição:** [42|Rio][42rio]   
@@ -75,7 +105,7 @@ Vá para a [página wiki][wiki] da 42Template.
 > Este repositório está sob a _**Licença Apache**_, leia mais sobre [aqui](/LICENSE)   
 > **_Continue a Nadar!_**   
  
-#### _42template - 42|Rio - thfirmin_   
+#### _Libft - 42|Rio - thfirmin_   
 ---
 
 <!-- Links -->
