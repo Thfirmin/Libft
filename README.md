@@ -76,5 +76,5 @@ Go to 42Template [Wiki page][wiki].
 [github]:<https://docs.github.com/en>
 [git]:<https://git-scm.com/doc>
 [html]:<https://www.w3schools.com/html>
-[c]:<https://en.wikipedia.org/wiki/C_(programming_language)>
+[clang]:<https://en.wikipedia.org/wiki/C_(programming_language)>
 [make]:<http://www.fredshack.com/docs/make.html>
