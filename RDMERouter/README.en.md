@@ -3,9 +3,9 @@
 
 <a href="/">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="/.github/img/42template_dark.png">
-		<source media="(prefers-color-scheme: light)" srcset="/.github/img/42template_light.png">
-		<img alt="42 Header" src="/.github/img/42template_light.png">
+		<source media="(prefers-color-scheme: dark)" srcset="/.github/img/libft_dark.svg">
+		<source media="(prefers-color-scheme: light)" srcset="/.github/img/libft_light.svg">
+		<img alt="42 Header" src="/.github/img/libft_light.svg">
 	</picture>
 </a>
 
@@ -13,7 +13,7 @@
 
 </div>
 
-# 42Template
+# Libft
 
 > Intro
 
@@ -25,7 +25,7 @@ Version: `0`
 
 Introductional text of project (Preamble)
 
-Access documentations of 42Template [here][wiki]   
+Access documentations of Libft [here][wiki]   
 Go back to [Homepage](../)   
 
 ---
@@ -58,7 +58,7 @@ Go back to [Homepage](../)
 ---
 
 See more detailed explanations of the project on the Wiki page.   
-Go to 42Template [Wiki page][wiki].   
+Go to Libft [Wiki page][wiki].   
 
 **Author:** [Thiago Firmino dos S.][thfirmin]   
 **Institution:** [42|Rio][42rio]   
@@ -75,11 +75,11 @@ Go to 42Template [Wiki page][wiki].
 > This repository is under the _**Apache license**_, read more about [here](/LICENSE)   
 > **_Keep Swimming!_**   
  
-#### _42template - 42|Rio - thfirmin_   
+#### _libft - 42|Rio - thfirmin_   
 ---
 
 <!-- Links -->
-[wiki]:<https://github.com/Thfirmin/42template/wiki>
+[wiki]:<https://github.com/Thfirmin/libft/wiki>
 [thfirmin]:<https://github.com/Thfirmin>
 [42pdh]:<https://github.com/gawbsouza/42-pdh>
 [42rio]:<https://42.rio>

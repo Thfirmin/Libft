@@ -1,4 +1,4 @@
-# 42Template
+# Libft
 
 ## Release _Big_._Medium_._Little_ - _DD_/_MM_/_YYYY_
 
