@@ -6,7 +6,12 @@ CFLAGS = -Wall -Wextra -Werror
 
 DFLAGS=
 
-SRCS = test.c
+SRC_LIST = \
+		   isalpha
+
+FT_LIST = $(addprefix ft_,$(SRC_LIST))
+
+SRCS = $(addprefix $(FT_LIST),.c)
 
 OBJS = $(SRCS:.c=.o)
 
@@ -31,7 +36,17 @@ debug: DFLAGS=-g
 
 debug: re
 
+test: all $(SRC_LIST)
+
+$(SRC_LIST): DFLAGS=-g
+
+$(SRC_LIST):
+	@echo "==========| TESTING $@ |=========="
+	$(CC) $(CFLAGS) $(DFLAGS) -I. test/ft_${@}_test.c -o test/exec/${@}.out -L. -lft
+	@test/exec/${@}.out
+	@rm test/exec/${@}.out
+
 .c.o:
 	$(CC) $(CFLAGS) $(DFLAGS) -c $< -o $(<:.c=.o)
 
-.PHONY: all clean fclean re debug
+.PHONY: all clean fclean re debug $(SRC_LIST) test
