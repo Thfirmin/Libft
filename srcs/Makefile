@@ -7,11 +7,11 @@ CFLAGS = -Wall -Wextra -Werror
 DFLAGS=
 
 SRC_LIST = \
-		   isalpha
+		   isalpha isdigit
 
 FT_LIST = $(addprefix ft_,$(SRC_LIST))
 
-SRCS = $(addprefix $(FT_LIST),.c)
+SRCS = $(foreach src,$(FT_LIST),$(src).c)
 
 OBJS = $(SRCS:.c=.o)
 
@@ -21,12 +21,12 @@ $(NAME): $(OBJS)
 	ar -rcs $(NAME) $(OBJS)
 
 clean:
-ifndef (,$(shell ls $(OBJS) 2>/dev/null))
+ifneq (,$(shell ls $(OBJS) 2>/dev/null))
 	rm -f $(OBJS)
 endif
 
 fclean: clean
-ifndef (,$(shell ls $(NAME) 2>/dev/null))
+ifneq (,$(shell ls $(NAME) 2>/dev/null))
 	rm -f $(NAME)
 endif
 
