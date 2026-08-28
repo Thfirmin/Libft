@@ -15,11 +15,12 @@
 
 # Libft
 
-> Intro
+> Your very first own library
 
-Project synopsis
+This project involves coding a C library that will include numerous general purpose
+functions for your programs.
 
-Version: `0`
+Version: `19.2`
 
 ---
 
@@ -35,6 +36,8 @@ Technologies and methodologies used to build this project are listed below:
 * [Git][git]
 * [HTML][html]
 * [Markdown][markdown]
+* [C][c]
+* [GNU/Make][make]
 
 
 ## Avaliable Languages
@@ -76,4 +79,6 @@ Go to Libft [Wiki page][wiki].
 [github]:<https://docs.github.com/en>
 [git]:<https://git-scm.com/doc>
 [html]:<https://www.w3schools.com/html>
+[c]:<https://www.iso.org/standard/74528.html>
+[make]:<https://ftp.gnu.org/old-gnu/Manuals/make-3.80/html_node/make.html>
 
